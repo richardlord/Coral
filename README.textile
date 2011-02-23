@@ -1,0 +1,52 @@
+h1. Coral: 3-d Mathematics classes for Actionscript
+
+Coral is a set of Actionscript 3 classes for 3D Mathematics. It includes the following classes
+
+  Point3d
+  Vector3d
+  Matrix3d
+  Quaternion
+  
+h3. History
+
+Coral used to be part of the Flint Particles engine.
+
+Prior to version 3 of Flint, Flint used it's own 3D Maths classes. With the release of version 3, Flint switched to use the native classes in the Flash Player. However, in making this change in Flint I discovered that the Coral classes are both faster and more accurate than the native classes (in Flash Player 10.2 and earlier), so I am making Coral available here for other developers to use.
+
+Flint continues to use the native classes because that makes Flint more approachable for other developers, and by inlining some calculations rather than using the methods in Flash's Vector3D and Matrix3D classes, I was able to circumvent the issues in the native classes.
+
+I continue to use Coral in all my 3D work other than Flint.
+
+h3. Source Code
+
+* "Coral":http://github.com/richardlord/Coral
+
+h3. Tests
+
+The unit tests use the "FlexUnit":http://flexunit.org/ test framework by Michael Labriola et al.
+
+The performance tests use the "Performance Test":http://gskinner.com/blog/archives/2010/02/performancetest.html test framework by Grant Skinner.
+
+h3. Developer
+
+* "Richard Lord":http://www.richardlord.net/
+** "Richard on Twitter":http://twitter.com/Richard_Lord
+** "Richard on Github":http://github.com/richardlord
+
+h2. License
+
+CORAL 3D-MATHEMATICS
+....................
+
+Author: Richard Lord
+Copyright (c) Richard Lord 2008-2011
+http://www.richardlord.net
+
+
+Licence Agreement
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
