@@ -2,10 +2,16 @@ h1. Coral: 3-d Mathematics classes for Actionscript
 
 Coral is a set of Actionscript 3 classes for 3D Mathematics. It includes the following classes
 
-  Point3d
-  Vector3d
-  Matrix3d
-  Quaternion
+* Point3d
+* Vector3d
+* Matrix3d
+* Quaternion
+
+h3. Articles
+
+* "Introducing Coral, an Actionscript library for 3D Math":http://www.richardlord.net/blog/introducing-coral-an-actionscript-library-for-3d-math
+* "Architecture of Coral vs Vector3D and Matrix3D":http://www.richardlord.net/blog/architecture-of-coral-vs-vector3d-and-matrix3d
+* "Performance of Coral vs Vector3D and Matrix3D":http://www.richardlord.net/blog/performance-of-coral-vs-vector3d-and-matrix3d
   
 h3. History
 
